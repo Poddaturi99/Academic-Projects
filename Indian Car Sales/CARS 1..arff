@@ -1,0 +1,60 @@
+@relation 'CARS 1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last'
+
+@attribute ﻿Profession {Salaried,Business}
+@attribute 'Total Salary' {200000,900000,1100000,1200000,1300000,1400000,1500000,1600000,1700000,1800000,1900000,2000000,2100000,2200000,2300000,2400000,2500000,2700000,2900000,3100000,3600000,3700000,4000000,4100000,4300000,4500000,4700000,4900000}
+@attribute 'Range ' {'Low ','Medium ','High '}
+@attribute Price {700000,800000,1600000}
+@attribute Make {i20,Baleno,SUV}
+@attribute 'No of Dependents' {0,2,3,4}
+@attribute 'Wife Working ' {No,Yes}
+
+@data
+Salaried,200000,'Low ',800000,i20,0,No
+Salaried,900000,'Low ',700000,Baleno,3,No
+Salaried,900000,'Low ',800000,i20,3,No
+Salaried,1100000,'Low ',700000,Baleno,4,Yes
+Salaried,1300000,'Low ',800000,i20,0,No
+Salaried,1300000,'Low ',700000,Baleno,0,No
+Salaried,1400000,'Low ',700000,Baleno,0,No
+Salaried,1400000,'Low ',700000,Baleno,4,Yes
+Salaried,1600000,'Low ',800000,i20,2,Yes
+Salaried,1600000,'Low ',800000,i20,2,Yes
+Salaried,1700000,'Low ',700000,Baleno,0,No
+Salaried,1700000,'Low ',700000,Baleno,0,No
+Salaried,1800000,'Low ',700000,Baleno,3,No
+Salaried,1900000,'Medium ',700000,Baleno,2,Yes
+Salaried,2000000,'Medium ',800000,Baleno,3,No
+Salaried,2100000,'Medium ',800000,i20,3,No
+Salaried,2300000,'Medium ',800000,i20,2,Yes
+Salaried,2400000,'Medium ',700000,Baleno,0,No
+Salaried,2500000,'Medium ',1600000,SUV,2,Yes
+Salaried,2700000,'Medium ',1600000,SUV,4,Yes
+Salaried,2700000,'Medium ',1600000,SUV,2,Yes
+Salaried,2900000,'High ',1600000,SUV,2,Yes
+Salaried,2900000,'High ',1600000,SUV,3,No
+Salaried,3100000,'High ',1600000,SUV,0,No
+Salaried,3100000,'High ',1600000,SUV,3,No
+Salaried,3600000,'High ',1600000,SUV,4,Yes
+Salaried,3600000,'High ',1600000,SUV,2,Yes
+Salaried,3700000,'High ',1600000,SUV,0,No
+Salaried,4100000,'High ',1600000,SUV,2,Yes
+Salaried,4500000,'High ',1600000,SUV,3,No
+Salaried,4900000,'High ',1600000,SUV,3,No
+Business,900000,'Low ',700000,Baleno,4,Yes
+Business,1100000,'Low ',800000,i20,2,Yes
+Business,1200000,'Low ',700000,Baleno,3,No
+Business,1400000,'Low ',800000,i20,3,No
+Business,1400000,'Low ',700000,Baleno,4,Yes
+Business,1400000,'Low ',800000,i20,3,No
+Business,1500000,'Low ',700000,Baleno,3,No
+Business,1600000,'Low ',800000,i20,3,No
+Business,1900000,'Medium ',700000,Baleno,3,No
+Business,2000000,'Medium ',800000,i20,2,Yes
+Business,2100000,'Medium ',700000,Baleno,3,No
+Business,2100000,'Medium ',700000,Baleno,0,No
+Business,2200000,'Medium ',700000,Baleno,3,No
+Business,2700000,'Medium ',1600000,SUV,3,No
+Business,3100000,'High ',1600000,SUV,0,No
+Business,4000000,'High ',1600000,SUV,3,No
+Business,4300000,'High ',1600000,SUV,2,Yes
+Business,4700000,'High ',1600000,SUV,0,No
